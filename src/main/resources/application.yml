@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/finance
+    username: finance
+    password: obiwan
+  groovy:
+    template:
+      check-template-location: false
+  devtools:
+    add-properties: true
+  jpa:
+    open-in-view: true
